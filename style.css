@@ -1,0 +1,45 @@
+.header {
+    position: absolute;
+    width: 1240px;
+    height: 50px;
+    left: 100px;
+    top: 50px;
+}
+.hero {
+    position: relative;
+    width: 1375px;
+    height: 611px;
+}
+
+.hero-div {
+    position: absolute;
+    left: 0%;
+    right: 9.82%;
+    top: 0%;
+    bottom: 5.89%;
+
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+
+.h1-blue {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    color: #234CAD;
+}
+
+.text-blue {
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #234CAD;
+}
