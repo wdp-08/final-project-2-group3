@@ -215,3 +215,67 @@ color: #234CAD;
     /* or 162% */
     color: #234CAD;
 }
+
+.section-center-container {
+    position: absolute;
+    width: 1240px;
+    height: 908px;
+    left: 100px;
+    top: 1900px;
+}
+
+.section-center {
+    position: absolute;
+    width: 1240px;
+    height: 858px;
+    left: 0px;
+    top: 0px;
+}
+
+.section-center-text-container {
+    position: absolute;
+    width: 723px;
+    height: 133px;
+    left: 259px;
+    top: 0px;
+
+}
+
+.section-center-header {
+    position: absolute;
+    left: 20.89%;
+    right: 20.81%;
+    top: 0%;
+    bottom: 93.83%;
+    text-align: center;
+}
+
+.section-center-body-text {
+    position: absolute;
+    left: 32.9%;
+    right: 32.82%;
+    top: 8.92%;
+    bottom: 85.35%;
+    text-align: center;
+}
+
+.text-blue-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+
+    color: #234CAD;
+
+}
+
+.sectionn-center-image-container {
+    position: absolute;
+    width: 1240px;
+    height: 625px;
+    left: 0px;
+    top: 233px;
+}
