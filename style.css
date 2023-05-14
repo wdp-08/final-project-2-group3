@@ -767,14 +767,11 @@ line-height: 21px;
 }
 
 .newsletter {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  background: #F2F6FF;
-  border-radius: 60px;
+    position: absolute;
+    width: 1240px;
+    height: 383px;
+    background: #F2F6FF;
+    border-radius: 60px;
 }
 
 .section-center-header {
