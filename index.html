@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,69 +16,159 @@
       href="https://fonts.googleapis.com/css?family=Nunito"
       rel="stylesheet"
     />
-    <title></title>
+    <title>Final Project 2 Group 3</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="profile.html">Profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Portfolio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Tutorial</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">HTML</a>
-              <a class="dropdown-item" href="#">CSS</a>
-              <a class="dropdown-item" href="#">Javascript</a>
-              <a class="dropdown-item" href="#">JQuery</a>
-              <a class="dropdown-item" href="#">CodeIgniter</a>
-            </div>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Daftar</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container hero my-3">
-      <div class="row hero-div">
-        <div class="col-4 m-4">
-          <h1 class="text-left h1-blue">Business Communications Reinvented</h1>
-          <p class="text-blue">
+    <!-- Navbar -->
+    <section class="nav-section">
+      <nav class="navbar">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="icons/icon-Background.svg" alt="" class="bgicon" />
+            <img src="icons/icon.svg" alt="" class="icon" />
+          </a>
+        </div>
+        <div class="navlink">
+          <span class="home" href="#">Home</span>
+          <span class="product" href="#">Product</span>
+          <span class="about" href="#about">About</span>
+          <span class="contact" href="#">Contact</span>
+        </div>
+        <div class="login">
+          <button type="button" class="login-btn">
+            <span class="a-login">Login</span>
+          </button>
+        </div>
+        <div class="signup">
+          <button type="button" class="signup-btn">
+            <span class="a-signup">Sign Up</span>
+          </button>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Banner -->
+    <section class="hero-section">
+      <div class="hero-bg">
+        <div class="hero-text">
+          <h1 class="main-title">Business Communications Reinvented</h1>
+          <p class="body-text">
             Start communication with your business team more efficiently with
             our app
           </p>
         </div>
+
+        <div class="get-div">
+          <button type="button" class="get-btn">
+            <span class="a-get">Get The App</span>
+          </button>
+        </div>
+
+        <div class="hero-element">
+          <div class="card card1 bigcard">
+            <div class="card-body">
+              <img src="icons/Progress.png" style="width: min-content" alt="" />
+              <span class="p-2 txt-b">Uploading Document</span>
+              <p class="txt-1 txt-s">7,09/ 108,98 GB</p>
+            </div>
+          </div>
+          <div class="card card2 bigcard">
+            <div class="card-body">
+              <img src="icons/Person's Initials.png" class="img-fluid" alt="" />
+              <img src="icons/Notification.png" class="notif" alt="" />
+              <span class="p-2 txt-b">Anna Brooks</span>
+              <p class="txt-2 txt-s">Hi, How Are You Doing Today?</p>
+              <p class="txt-s time">2:09 AM</p>
+            </div>
+          </div>
+          <div class="card card3 bigcard">
+            <div class="card-body">
+              <img
+                src="icons/Person's-Initials2.png"
+                class="img-fluid"
+                alt=""
+              />
+              <img src="icons/Notification.png" class="notif" alt="" />
+              <span class="p-2 txt-b">John Smith</span>
+              <p class="txt-2 txt-s">Hello, Are you available for a pro...</p>
+              <p class="txt-s time">11:05 AM</p>
+            </div>
+          </div>
+          <div class="card card4">
+            <div class="card-body">
+              <img
+                src="icons/Progress2.png"
+                style="padding-top: 20%; padding-left: 12%"
+                alt=""
+              />
+              <p class="txt-s" style="padding-left: 12%; padding-top: 15%">
+                1,73/2.09 GB
+              </p>
+            </div>
+          </div>
+          <div class="card card5">
+            <div class="card-body">
+              <img
+                src="icons/Doc.png"
+                style="padding-left: 20%; padding-top: 15%"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card card6">
+            <div class="card-body">
+              <img
+                src="icons/msg.png"
+                style="padding-left: 8%; padding-top: 15%"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card card7">
+            <div class="card-body">
+              <img src="icons/calendar.png" class="img-fluid" alt="" />
+              <span class="p-2 txt-b">Team Meeting</span>
+              <p class="txt-s info">2:30 PM, 15 April 2020</p>
+              <img
+                src="icons/Meeting Participants.png"
+                class="img-fluid"
+                style="padding-top: 8%"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card card8">
+            <div class="card-body">
+              <img src="icons/bookmark.png" style="width: min-content" alt="" />
+              <span class="p-2 txt-b">Message Saved</span>
+              <p class="txt-2 txt-s">
+                You Have Successfully Saved This Message
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Product 1 -->
+    <section id="product">
+      <div class="section-center-container my-5">
+        <div class="section-center">
+          <div class="mb-4">
+            <h1 class="section-center-header h1-blue">
+              Transform your communications
+            </h1>
+            <p class="section-center-body-text text-blue">
+              Our mobile app is the only thing you need to change the way you
+              communicate with your team
+            </p>
+          </div>
+          <div class="section-center-image-container">
+            <img src="Content.png" alt="section-center-image" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- About -->
     <section id="about">
@@ -93,7 +183,7 @@
               Get the app
             </button>
           </div>
-          <div class="about">
+          <div class="about-size">
             <div class="background">
               <div class="row">
                 <div
@@ -105,7 +195,7 @@
                       <div
                         class="circle-border d-flex justify-content-center align-items-center"
                       >
-                        <img src="icons/Icon.svg" alt="" />
+                        <img src="icons/calendar.png" alt="" />
                       </div>
                     </div>
                     <div class="col-7 clr-blue">
@@ -157,7 +247,7 @@
                       <div
                         class="circle-border d-flex justify-content-center align-items-center"
                       >
-                        <img src="icons/Icon.svg" alt="" />
+                        <img src="icons/calendar.png" alt="" />
                       </div>
                     </div>
                     <div class="col-7 clr-blue">
@@ -201,7 +291,7 @@
                       <div
                         class="circle-border d-flex justify-content-center align-items-center"
                       >
-                        <img src="icons/Icon.svg" alt="" />
+                        <img src="icons/calendar.png" alt="" />
                       </div>
                     </div>
                     <div class="col-7 clr-blue">
@@ -237,7 +327,7 @@
                       <div
                         class="circle-border d-flex justify-content-center align-items-center"
                       >
-                        <img src="icons/Icon.svg" alt="" />
+                        <img src="icons/calendar.png" alt="" />
                       </div>
                     </div>
                     <div class="col-7 clr-blue">
@@ -289,7 +379,7 @@
                       <div
                         class="circle-border d-flex justify-content-center align-items-center"
                       >
-                        <img src="icons/Icon.svg" alt="" />
+                        <img src="icons/calendar.png" alt="" />
                       </div>
                     </div>
                     <div class="col-7 clr-blue">
@@ -307,7 +397,7 @@
                       <div
                         class="circle-border d-flex justify-content-center align-items-center"
                       >
-                        <img src="icons/Icon.svg" alt="" />
+                        <img src="icons/calendar.png" alt="" />
                       </div>
                     </div>
                     <div class="col-7 clr-blue">
@@ -319,34 +409,6 @@
               </div>
             </div>
           </div>
-
-    <nav class="header">
-        <button class="navbar-toggler">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav-link">
-            <li class="nav-item active">
-              <a class="nav-link" href="profile.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Contact</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="btn-primary nav-item">
-              <p class="btn-text" href="#">Login
-            </li>
-            <li class="btn-secondary nav-item">
-                <p class="btn-text">Daftar
-            </li>
-          </ul>
         </div>
       </div>
     </section>
@@ -394,29 +456,31 @@
         </div>
       </div>
     </section>
-    </div>
-    <div class="section-center-container">
-      <div class="section-center">
-        <div class="mb-4">
-          <h1 class="section-center-header h1-blue">Transform your communications</h1>
-          <p class="section-center-body-text text-blue">Our mobile app is the only thing you need to change the way you communicate with your team</p>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="newsletter-container">
+        <div class="newsletter">
+          <div>
+            <h1 class="newsletter-header">Sign up to our newsletter</h1>
+            <p class="newsletter-text">
+              Receive latest news, updates, discounts, and many other things
+              every week
+            </p>
+          </div>
+          <div class="newsletter-input-container">
+            <input
+              type="text"
+              class="newsletter-input"
+              placeholder="Enter your email address"
+            />
+            <button class="newsletter-button">></button>
+          </div>
         </div>
-        <div class="section-center-image-container">
-          <img src="Content.png" alt="section-center-image">
       </div>
-    </div>  
-    <div class="newsletter-container">
-      <div class="newsletter">
-        <div>
-        <h1 class="newsletter-header">Sign up to our newsletter</h1>
-        <p class="newsletter-text">Receive latest news, updates, discounts, and many other things every week</p>
-      </div>
-      <div class="newsletter-input-container">
-        <input type="text" class="newsletter-input" placeholder="Enter your email address">
-        <button class="newsletter-button">></button>
-        </div>
-      </div>
-    </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer-container">
       <div class="footer container">
         <div class="row">
@@ -443,120 +507,5 @@
         </div>
       </div>
     </footer>
-</body>
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito"
-      rel="stylesheet">
-    <title></title>
-</head>
-<body>
-    <!-- Navbar -->
-    <section class="nav-section">
-        <nav class="navbar">
-            <div>
-              <a class="navbar-brand" href="#">
-                <img src="icons/icon-Background.svg" alt="" class="bgicon">
-                <img src="icons/icon.svg" alt="" class="icon">
-              </a>
-            </div>
-            <div class="navlink">
-                <span class="home" href="#">Home</span>
-                <span class="product" href="#">Product</span>
-                <span class="about" href="#">About</span>
-                <span class="contact" href="#">Contact</span>
-              </div>
-            <div class="login">
-                <button type="button" class="login-btn">
-                    <span class="a-login">Login</span>
-                </button>
-            </div>
-            <div class="signup">
-                <button type="button" class="signup-btn">
-                    <span class="a-signup">Sign Up</span>
-                </button>
-            </div>
-          </nav>
-    </section>
-
-    <section class="hero-section">
-        <div class="hero-bg">
-            <div class="hero-text">
-                <h1 class="main-title"> Business Communications Reinvented</h1>
-                <p class="body-text"> 
-                    Start communication with your business team more efficiently with our app 
-                </p>
-            </div>
-
-            <div class="get-div">
-                <button type="button" class="get-btn">
-                    <span class="a-get">Get The App</span>
-                </button>
-            </div>
-
-            <div class="hero-element">
-                <div class="card card1 bigcard">
-                    <div class="card-body">
-                        <img src="icons/Progress.png" style="width :min-content " alt="">
-                        <span class="p-2  txt-b">Uploading Document</span>
-                        <p class="txt-1 txt-s">7,09/ 108,98 GB</p>
-                    </div>
-                </div>
-                <div class="card card2 bigcard">
-                    <div class="card-body">
-                        <img src="icons/Person's Initials.png" class="img-fluid" alt="">
-                        <img src="icons/Notification.png" class="notif" alt="">
-                        <span class="p-2 txt-b">Anna Brooks</span>
-                        <p class="txt-2 txt-s">Hi, How Are You Doing Today?</p>
-                        <p class="txt-s time">2:09 AM</p>
-                    </div>
-                </div>
-                <div class="card card3 bigcard">
-                    <div class="card-body">
-                        <img src="icons/Person's-Initials2.png" class="img-fluid" alt="">
-                        <img src="icons/Notification.png" class="notif" alt="">
-                        <span class="p-2 txt-b">John Smith</span>
-                        <p class="txt-2 txt-s">Hello, Are you available for a pro...</p>
-                        <p class="txt-s time">11:05 AM</p>
-                    </div>
-                </div>
-                <div class="card card4">
-                    <div class="card-body">
-                        <img src="icons/Progress2.png"  style="padding-top: 20%; padding-left: 12%;" alt="">
-                        <p class="txt-s" style=" padding-left: 12%; padding-top: 15%">1,73/2.09 GB </p>
-                    </div>
-                </div>
-                <div class="card card5">
-                    <div class="card-body">
-                        <img src="icons/Doc.png" style="padding-left: 20%; padding-top: 15%" alt="">
-                    </div>
-                </div>
-                <div class="card card6">
-                    <div class="card-body">
-                        <img src="icons/msg.png" style="padding-left: 8%; padding-top: 15%" alt="">
-                    </div>
-                </div>
-                <div class="card card7">
-                    <div class="card-body">
-                        <img src="icons/calendar.png" class="img-fluid" alt="">
-                        <span class="p-2 txt-b">Team Meeting</span>
-                        <p class="txt-s info">2:30 PM, 15 April 2020</p>
-                        <img src="icons/Meeting Participants.png" class="img-fluid" style="padding-top: 8%" alt="">
-                    </div>
-                </div>
-                <div class="card card8">
-                    <div class="card-body">
-                        <img src="icons/bookmark.png" style="width :min-content" alt="">
-                        <span class="p-2  txt-b">Message Saved</span>
-                        <p class="txt-2 txt-s">You Have Successfully Saved This Message</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-</body>
+  </body>
 </html>
