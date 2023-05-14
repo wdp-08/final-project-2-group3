@@ -777,6 +777,22 @@ line-height: 21px;
   border-radius: 60px;
 }
 
+.section-center-header {
+  left: 20.89%;
+  right: 20.81%;
+  top: 0%;
+  bottom: 93.83%;
+  text-align: center;
+}
+
+.section-center-body-text {
+  left: 32.9%;
+  right: 32.82%;
+  top: 8.92%;
+  bottom: 85.35%;
+  text-align: center;
+}
+
 .newsletter-input-container {
   position: absolute;
   left: 29.84%;
