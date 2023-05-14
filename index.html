@@ -20,155 +20,188 @@
   </head>
   <body>
     <!-- Navbar -->
-    <section class="nav-section">
-      <nav class="navbar">
-        <div>
-          <a class="navbar-brand" href="#">
-            <img src="icons/icon-Background.svg" alt="" class="bgicon" />
-            <img src="icons/icon.svg" alt="" class="icon" />
-          </a>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container my-4 clr-blue">
+            <img src="icons/Menu Button.png" alt="menu">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav about-card-title">
+                    <span style="margin-right: 50px; cursor: pointer;" aria-current="page" href="#">Home</span>
+                    <span style="margin-right: 50px; cursor: pointer;" href="#">Product</span>
+                    <span style="margin-right: 50px; cursor: pointer;" href="#">About</span>
+                    <span style="margin-right: 130px; cursor: pointer;" href="#">Contact</span>
+                </div>
+            </div>
+            <form class="d-flex my-4">
+                <button class="btn btn-border btn-outline-primary about-card-title clr-blue" type="submit">Login</button>
+                <button class="btn btn-full about-card-title clr-blue" style="margin-left: 7px;"type="submit">Sign Up</button>
+            </form>
         </div>
-        <div class="navlink">
-          <span class="home" href="#">Home</span>
-          <span class="product" href="#">Product</span>
-          <span class="about" href="#about">About</span>
-          <span class="contact" href="#">Contact</span>
-        </div>
-        <div class="login">
-          <button type="button" class="login-btn">
-            <span class="a-login">Login</span>
-          </button>
-        </div>
-        <div class="signup">
-          <button type="button" class="signup-btn">
-            <span class="a-signup">Sign Up</span>
-          </button>
-        </div>
-      </nav>
+    </nav>
     </section>
 
-    <!-- Banner -->
-    <section class="hero-section">
-      <div class="hero-bg">
-        <div class="hero-text">
-          <h1 class="main-title">Business Communications Reinvented</h1>
-          <p class="body-text">
-            Start communication with your business team more efficiently with
-            our app
-          </p>
-        </div>
-
-        <div class="get-div">
-          <button type="button" class="get-btn">
-            <span class="a-get">Get The App</span>
-          </button>
-        </div>
-
-        <div class="hero-element">
-          <div class="card card1 bigcard">
-            <div class="card-body">
-              <img src="icons/Progress.png" style="width: min-content" alt="" />
-              <span class="p-2 txt-b">Uploading Document</span>
-              <p class="txt-1 txt-s">7,09/ 108,98 GB</p>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container my-5">
+        <div class="hero">
+          <div class="hero-div">
+            <div class="row d-flex align-items-center" style="margin-left: 50px; margin-top: 70px;">
+              <div class="col-4 py-5 me-5 justify-content-start">
+                <h1 class="h1-blue" style="margin-left: 20px; margin-top: 70px;">Business Communications Reinvented</h1>
+                <p class="text-blue py-3" style="margin-left: 30px;">
+                  Start communicating with your business team more efficiently with our app.
+                </p>
+                <button class="btn-about btn-hero clr-blue">
+                  Get the app
+                </button>
+              </div>
+              <div class="col-4 py-5 me-5 justify-content-start">
+                <div class="card card1 bigcard">
+                  <div class="card-body">
+                      <img src="icons/Progress.png" style="width :min-content " alt="">
+                      <span class="about-card-title clr-blue" style="margin-left:20px;">Uploading Document</span>
+                      <p class="txt-1 txt-s"  style="margin-left:12px;">7,09/ 108,98 GB</p>
+                  </div>
+              </div>
+              <div class="card card2 bigcard">
+                  <div class="card-body">
+                      <img src="icons/Person's Initials.png" class="img-fluid" alt="">
+                      <img src="icons/Notification.png" class="notif" alt="">
+                      <span class="about-card-title clr-blue" style="margin-left:20px;" >Anna Brooks</span>
+                      <p class="txt-2 txt-s" style="margin-left:11px;">Hi, How Are You Doing Today?</p>
+                      <p class="txt-s time">2:09 AM</p>
+                  </div>
+              </div>
+              <div class="card card3 bigcard">
+                <div class="card-body">
+                    <img src="icons/Person's-Initials2.png" class="img-fluid" alt="">
+                    <img src="icons/Notification.png" class="notif" alt="">
+                    <span class="about-card-title clr-blue" style="margin-left:20px;" >John Smith</span>
+                    <p class="txt-2 txt-s"  style="margin-left:10px;">Hello, Are you available for a pro...</p>
+                    <p class="txt-s time">11:05 AM</p>
+                </div>
+             </div>
+             <div class="card card4">
+              <div class="card-body">
+                  <img src="icons/Progress2.png"  style="padding-top: 20%; padding-left: 12%;" alt="">
+                  <p class="txt-s" style=" padding-left: 12%; padding-top: 15%">1,73/2.09 GB </p>
+              </div>
             </div>
-          </div>
-          <div class="card card2 bigcard">
-            <div class="card-body">
-              <img src="icons/Person's Initials.png" class="img-fluid" alt="" />
-              <img src="icons/Notification.png" class="notif" alt="" />
-              <span class="p-2 txt-b">Anna Brooks</span>
-              <p class="txt-2 txt-s">Hi, How Are You Doing Today?</p>
-              <p class="txt-s time">2:09 AM</p>
+            <div class="card card5">
+              <div class="card-body">
+                  <img src="icons/Doc.png" style="padding-left: 20%; padding-top: 15%" alt="">
+              </div>
             </div>
-          </div>
-          <div class="card card3 bigcard">
-            <div class="card-body">
-              <img
-                src="icons/Person's-Initials2.png"
-                class="img-fluid"
-                alt=""
-              />
-              <img src="icons/Notification.png" class="notif" alt="" />
-              <span class="p-2 txt-b">John Smith</span>
-              <p class="txt-2 txt-s">Hello, Are you available for a pro...</p>
-              <p class="txt-s time">11:05 AM</p>
+            <div class="card card6">
+              <div class="card-body">
+                  <img src="icons/msg.png" style="padding-left: 8%; padding-top: 15%" alt="">
+              </div>
             </div>
-          </div>
-          <div class="card card4">
-            <div class="card-body">
-              <img
-                src="icons/Progress2.png"
-                style="padding-top: 20%; padding-left: 12%"
-                alt=""
-              />
-              <p class="txt-s" style="padding-left: 12%; padding-top: 15%">
-                1,73/2.09 GB
-              </p>
+            <div class="card card7">
+              <div class="card-body">
+                  <img src="icons/calendar.png" class="img-fluid" alt="">
+                  <span class="about-card-title clr-blue" style="margin-left:20px;">Team Meeting</span>
+                  <p class="txt-s info" style=" padding-left: 1%;" >2:30 PM, 15 April 2020</p>
+                  <img src="icons/Meeting Participants.png" class="img-fluid" style="padding-top: 8%" alt="">
+              </div>
             </div>
-          </div>
-          <div class="card card5">
-            <div class="card-body">
-              <img
-                src="icons/Doc.png"
-                style="padding-left: 20%; padding-top: 15%"
-                alt=""
-              />
+            <div class="card card8">
+              <div class="card-body">
+                  <img src="icons/bookmark.png" style="width :min-content" alt="">
+                  <span class="p-2  txt-b">Message Saved</span>
+                  <p class="txt-2 txt-s">You Have Successfully Saved This Message</p>
+              </div>
             </div>
-          </div>
-          <div class="card card6">
-            <div class="card-body">
-              <img
-                src="icons/msg.png"
-                style="padding-left: 8%; padding-top: 15%"
-                alt=""
-              />
             </div>
-          </div>
-          <div class="card card7">
-            <div class="card-body">
-              <img src="icons/calendar.png" class="img-fluid" alt="" />
-              <span class="p-2 txt-b">Team Meeting</span>
-              <p class="txt-s info">2:30 PM, 15 April 2020</p>
-              <img
-                src="icons/Meeting Participants.png"
-                class="img-fluid"
-                style="padding-top: 8%"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="card card8">
-            <div class="card-body">
-              <img src="icons/bookmark.png" style="width: min-content" alt="" />
-              <span class="p-2 txt-b">Message Saved</span>
-              <p class="txt-2 txt-s">
-                You Have Successfully Saved This Message
-              </p>
-            </div>
-          </div>
+           </div>
+         </div>
         </div>
       </div>
     </section>
+    <!-- Akhir Hero -->
+
+    <!-- Items -->
+        <!-- Items -->
+        <section id="items">
+          <div class="container my-5">
+              <div class="row">
+                <div class="col-2 col-lg-2" style="width:100px; height:100px; padding-right:10px;">
+                  <img src="icons/cloud2.png" alt="cloud">
+                </div>
+                <div class="col">
+                  <h3 class="clr-blue txt-bold" style="margin-left: 30px; margin-top: 10px;">Cloud Based</h3>
+                  <p class="txt-lg clr-blue" style="margin-left: 30px;">All your messages are always backed up.</p>
+                </div>
+                <div class="col-2 col-lg-2" style="width:100px; height:100px; padding-left:50px;">
+                  <img src="icons/Lock.png" alt="lock">
+                </div>
+                <div class="col">
+                 <h3 class="clr-blue txt-bold"  style="margin-left: 70px; margin-top: 10px;">Secured</h3>
+                 <p class="txt-lg clr-blue" style="margin-left: 70px;">All your messages are stored very securely.</p>
+                </div>
+              </div>
+          </div>
+        </section>
 
     <!-- Product 1 -->
-    <section id="product">
-      <div class="section-center-container my-5">
-        <div class="section-center">
-          <div class="mb-4">
-            <h1 class="section-center-header h1-blue">
-              Transform your communications
-            </h1>
-            <p class="section-center-body-text text-blue">
-              Our mobile app is the only thing you need to change the way you
-              communicate with your team
+    <section id="product2">
+      <div class="container my-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="product1">
+            <div class="background">
+              <div class="col-4 card-init">
+                <img style="margin: 25px;" src="icons/Initials.png" alt="">
+                <img class="notif" src="icons/Notification.png" alt="">
+                  <div class="txt-init1">
+                  <p class="about-card-title clr-blue">Andrew Johnson</p>
+                  <p class="about-card-subtitle clr-blue">I have seen that you are availabl..</p>
+                  <p class="txt-s time">11:05 AM</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-init2">
+                <img style="margin: 20px;" src="icons/Initials2.png" alt="">
+                <img class="notif" style="width: 16px; height: 16px" src="icons/Notification.png" alt="">
+                <div class="txt-init2">
+                  <p class="about-card-title clr-blue">Daniel Luke</p>
+                  <p class="about-card-subtitle clr-blue">Would you like to have a meetin..</p>
+                  <p class="txt-s time" style="    font-size: 8px;">11:05 AM</p>
+                </div>
+              </div>
+              <div class="card-init3">
+                <img style="margin: 20px;" src="icons/Initials3.png" alt="">
+                <img class="notif" style="width: 12px; height: 12px" src="icons/Notification.png" alt="">
+                <div class="txt-init3">
+                  <p class="txt-s time" style=" font-size: 5px;">11:05 AM</p>
+                  <p class="about-card-title clr-blue" style=" font-size: 10px;">Mark Clarke</p>
+                  <p class="about-card-subtitle clr-blue" style="font-size: 8px;">Thiw was such a busy week. I can..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 py-5 me-5 justify-content-start" style="padding-left: 36px;">
+              <h1 class="h1-blue">Use our app to send messages to your team</h1>
+            <p class="text-blue py-3">
+              We offer really easy communications for all businesses from small to large.
             </p>
+            <button class="btn-about btn-bg-border clr-blue">
+              Get the app
+            </button>
+            </div>
           </div>
-          <div class="section-center-image-container">
-            <img src="Content.png" alt="section-center-image" />
-          </div>
-        </div>
-      </div>
     </section>
+      <!-- Product 2 -->
+      <section id="product2">
+        <div class="container my-5">
+          <div class="row">
+            <h1 class="section-center-header h1-blue">Transform your communications</h1>
+            <p class="section-center-body-text text-blue">Our mobile app is the only thing you need to change the way you communicate with your team</p>
+          </div>
+          <div class="row">
+            <img class="section-center-image-container"src="Content.png" alt="">
+          </div>
+        </div>  
+      </section>
+
 
     <!-- About -->
     <section id="about">

@@ -25,22 +25,129 @@ padding: 20px 15px;
 }
 
 /* Toggle Menu */
-.bgicon {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
+.btn-border{
+  box-sizing: border-box;
+  border: 2px solid #234CAD;
+  border-radius: 25px;
+  background-color: #fff;
+  margin-right: 20px;
+  width: 135px;
+  height: 50px;
+}
+
+.btn-full{
+  background: #F2F6FF;
+  border-radius: 25px;
+  border: 2px solid #F2F6FF;
+  width: 135px;
+  height: 50px;
+}
+
+.hero {
+  position: relative;
+  width: 1375px;
+  height: 611px;
 }
 
 .hero-div {
   position: relative;
-  width: 1240px;
+  width: 1150px;
   height: 575px;
 
   background: #f2f6ff;
   border-radius: 60px;
 }
+
+.btn-hero{
+  top: calc(75% - 40px / 2 + 0.5px);
+  margin-left: 30px;
+  background: #f2f6ff;
+  border-radius: 37.5px;
+  border: 3px solid #234cad;
+}
+
+.card {
+  background-color: #ffff;
+  border-color: #ffff;
+  border-radius: 20px;
+}
+
+.card-init {
+  position: absolute;
+  left: 6.8%;
+  right: 50.05%;
+  top: 18.78%;
+  bottom: 59.48%;
+  
+  background: #FFFFFF;
+  border-radius: 25px;
+
+  height: 125px;
+  width: 438px;
+  left: 69px;
+  top: 108px;
+  border-radius: 25px; 
+}
+
+.card-init2{
+  position: absolute;
+  left: 11.13%;
+  right: 54.38%;
+  top: 44.87%;
+  bottom: 37.74%;
+  
+  background: #FFFFFF;
+  border-radius: 20px;
+
+  height: 100px;
+  width: 350px;
+  left: 113px;
+  top: 258px;
+  border-radius: 20px;   
+}
+
+
+.card-init3{
+  position: absolute;
+  left: 15.47%;
+  right: 58.72%;
+  top: 66.61%;
+  bottom: 20.35%;
+  
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 75px;
+  width: 262px;
+  left: 157px;
+  top: 383px;
+  border-radius: 15px;
+  
+}
+
+.txt-init1{
+  position: absolute;
+  left: 30%;
+  right: 10%;
+  top: 30%;
+  bottom: 80%;
+}
+
+.txt-init2{
+  position: absolute;
+  left: 30%;
+  right: 10%;
+  top: 25%;
+  bottom: 70%;
+}
+
+.txt-init3{
+  position: absolute;
+  left: 30%;
+  right: 10%;
+  top: 25%;
+  bottom: 70%;
+}
+
 
 .h1-blue {
   font-family: "Nunito";
@@ -278,6 +385,12 @@ line-height: 21px;
     cursor: pointer;
 }
 
+.product1 {
+  position: relative;
+  width: 575px;
+  height: 575px;
+}
+
 .about {
     position: absolute;
     height: 29px;
@@ -505,138 +618,267 @@ line-height: 21px;
     height: 100px;
 }
 
-.txt-s{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 21px;
-    color: #234CAD;
-}
-
-.txt-b{
-    font-size: 16px;
-    font-weight: 700; 
-    Line-height: 21px;
-    font-family: 'Nunito';
-    color: #234CAD;
-}
-
 .card1 {
-    position: absolute;
-    left: 40%;
-    right: 32%;
-    top: 22%;
-    bottom: 61%;
-}
-
-.txt-1{
-    position: absolute;
-    height: 21px;
-    left: 24%;
-    right: 10%;
-    top: 60%
-    /* identical to box height, or 175% */  
-}
-
-.shadow {
-    position: absolute;
-    left: 38%;
-    right: 29%;
-    top: 22%;
-    bottom: 53%;
-    
-    background: linear-gradient(34.55deg, #234CAD 9.21%, rgba(35, 76, 173, 0.5) 110.31%);
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    filter: blur(67.957px);
-    border-radius: 20px;
+  position: absolute;
+  left: 40%;
+  right: 32%;
+  top: 22%;
+  bottom: 61%;
 }
 
 .card2 {
-    position: absolute;
-    left: 75%;
-    right: 10%;
-    top: 45%;
-    bottom: 40%;
+  position: absolute;
+  left: 68%;
+  right: 10%;
+  top: 45%;
+  bottom: 40%;
 }
 
+.card3 {
+  position: absolute;
+  left: 40%;
+  top: 430px;
+  bottom : 50%;
+}
+
+.card4 {
+  position: absolute;
+  width: 130px;
+  height: 160px;
+  left: 75%;
+  top: 11%;
+}
+
+.card5 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 40%;
+  top: 5%;
+}
+
+.card6 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 73%;
+  top: 89%;    
+}
+
+.card7{
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  left: 40%;
+  top: 45%;    
+}
+
+.card8{
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 75%;
+  top: 68%;
+}
+
+
+.info {
+  position: absolute;
+  height: 21px;
+  left: 33%;
+  right: 0%;
+  top: 40%;
+}
 .notif {
-    position: absolute;
-    left: 19%;
-    right: 30.47%;
-    top: 20%;
-    bottom: 51.39%;
+  position: absolute;
+  left: 19%;
+  right: 30.47%;
+  top: 20%;
+  bottom: 51.39%;
+}
+
+.txt-s{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  color: #234CAD;
+}
+
+.txt-b{
+  font-size: 16px;
+  font-weight: 700; 
+  Line-height: 21px;
+  font-family: 'Nunito';
+  color: #234CAD;
+}
+
+.txt-1{
+  position: absolute;
+  height: 21px;
+  left: 24%;
+  right: 10%;
+  top: 60%
+  /* identical to box height, or 175% */  
 }
 
 .time {
-    position: absolute;
-    height: 13px;
-    left: 80.48%;
-    right: 0%;
-    top: 35%
+  position: absolute;
+  height: 5px;
+  left: 80.48%;
+  right: 0%;
+  top: 35%
 
 }
 
 .txt-2{
-    position: absolute;
-    height: 21px;
-    left: 26%;
-    right: 5%;
-    top: 60%
+  position: absolute;
+  height: 21px;
+  left: 26%;
+  right: 5%;
+  top: 60%
+  /* identical to box height, or 175% */  
 }
 
-.card3 {
-    position: absolute;
-    left: 40%;
-    top: 430px;
-    bottom : 50%;
+.txt-bold{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 49px;
+  color: #234CAD;
 }
 
-.card4 {
-    position: absolute;
-    width: 130px;
-    height: 160px;
-    left: 92%;
-    top: 11%;
+.txt-lg {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 36px;
 }
 
-.card5 {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    left: 40%;
-    top: 3%;
+.newsletter-container {
+  position: absolute;
+  width: 1240px;
+  height: 383px;
+  left: 100px;
+  top: 4321px;
 }
 
-.card6 {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    left: 88%;
-    top: 87%;    
+.newsletter {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #F2F6FF;
+  border-radius: 60px;
 }
 
-.card7{
-    position: absolute;
-    width: 250px;
-    height: 150px;
-    left: 40%;
-    top: 45%;    
+.newsletter-input-container {
+  position: absolute;
+  left: 29.84%;
+  right: 29.84%;
+  top: 63.45%;
+  bottom: 19.58%;
+  background: #FFFFFF;
+  border-radius: 17.5px;
+  border: 1px solid #234CAD;
 }
 
-.info {
-    position: absolute;
-    height: 21px;
-    left: 36%;
-    right: 0%;
-    top: 40%;
+.newsletter-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  padding-left: 5%;
+  background: #FFFFFF;
+  border-radius: 17.5px;
+  border: 1px solid #234CAD;
 }
 
-.card8{
-    position: absolute;
-    width: 350px;
-    height: 100px;
-    left: 90%;
-    top: 66%;
+.newsletter-text {
+  position: absolute;
+  left: 36.05%;
+  right: 35.89%;
+  top: 40.73%;
+  bottom: 45.69%;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #234CAD;
+}
+
+.newsletter-header {
+  position: absolute;
+left: 27.1%;
+right: 27.02%;
+top: 19.58%;
+bottom: 65.8%;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+text-align: center;
+
+color: #234CAD;
+}
+
+.newsletter-button {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 445px;
+  top: 10px;
+
+  background: #234CAD;
+  border-radius: 12.5px;
+  border: none;
+  color: #FFFFFF;
+}
+
+
+.footer-container {
+  position: absolute;
+  width: 941px;
+  height: 166px;
+  left: 249px;
+  top: 4854px;
+  margin-bottom: 40px;
+}
+
+.footer-header {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+  /* identical to box height, or 163% */
+
+
+  color: #234CAD;
+}
+
+.footer-text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 162% */
+  color: #234CAD;
 }
