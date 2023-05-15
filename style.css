@@ -767,7 +767,7 @@ line-height: 21px;
 }
 
 .newsletter {
-    position: absolute;
+    position: relative;
     width: 1240px;
     height: 383px;
     background: #F2F6FF;
@@ -866,11 +866,11 @@ color: #234CAD;
 
 
 .footer-container {
-  position: absolute;
-  width: 941px;
+  position: relative;
+  width: 1240px;
   height: 166px;
-  left: 249px;
-  top: 4854px;
+  /* left: 249px; */
+  /* top: 4854px; */
   margin-bottom: 40px;
 }
 

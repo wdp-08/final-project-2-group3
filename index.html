@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <section id="navbar">
       <nav class="navbar navbar-expand-lg">
-        <div class="container my-4 clr-blue">
+        <div class="container my-4 clr-blue" >
             <img src="icons/Menu Button.png" alt="menu">
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav about-card-title">
@@ -124,21 +124,29 @@
         <!-- Items -->
         <section id="items">
           <div class="container my-5">
-              <div class="row">
-                <div class="col-2 col-lg-2" style="width:100px; height:100px; padding-right:10px;">
-                  <img src="icons/cloud2.png" alt="cloud">
+              <div class="row d-flex justify-content-center">
+                <div class="col-5">
+                  <div class="row">
+                    <div class="col-2" style="width:100px; height:100px; padding-right:10px;">
+                      <img src="icons/cloud2.png" alt="cloud">
+                    </div>
+                    <div class="col-8">
+                      <h3 class="clr-blue txt-bold" style="margin-left: 30px; margin-top: 10px;">Cloud Based</h3>
+                      <p class="txt-lg clr-blue" style="margin-left: 30px;">All your messages are always backed up.</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="col">
-                  <h3 class="clr-blue txt-bold" style="margin-left: 30px; margin-top: 10px;">Cloud Based</h3>
-                  <p class="txt-lg clr-blue" style="margin-left: 30px;">All your messages are always backed up.</p>
-                </div>
-                <div class="col-2 col-lg-2" style="width:100px; height:100px; padding-left:50px;">
-                  <img src="icons/Lock.png" alt="lock">
-                </div>
-                <div class="col">
-                 <h3 class="clr-blue txt-bold"  style="margin-left: 70px; margin-top: 10px;">Secured</h3>
-                 <p class="txt-lg clr-blue" style="margin-left: 70px;">All your messages are stored very securely.</p>
-                </div>
+                <div class="col-5">
+                  <div class="row">
+                    <div class="col-2 col-lg-2" style="width:100px; height:100px; padding-left:50px;">
+                      <img src="icons/Lock.png" alt="lock">
+                    </div>
+                    <div class="col">
+                     <h3 class="clr-blue txt-bold"  style="margin-left: 70px; margin-top: 10px;">Secured</h3>
+                     <p class="txt-lg clr-blue" style="margin-left: 70px;">All your messages are stored very securely.</p>
+                    </div>
+                  </div>
+                </div>     
               </div>
           </div>
         </section>
@@ -205,7 +213,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container my-5">
+      <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-4 py-5 me-5 justify-content-start">
             <h1 class="h1-blue">Increase the efficiency within your company</h1>
@@ -492,7 +500,7 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container mx-auto my-5">
+      <div class="container my-5">
         <div class="newsletter">
           <div>
             <h1 class="newsletter-header">Sign up to our newsletter</h1>
@@ -514,31 +522,34 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer-container">
-      <div class="footer container">
-        <div class="row">
-          <div class="col-3">
-            <h3 class="footer-header">Startup.io</h3>
-            <p class="footer-text">@2020 - All Rights Reserved</p>
-          </div>
-          <div class="col-3">
-            <h3 class="footer-header">Product</h3>
-            <p class="footer-text">Benefits</p>
-            <p class="footer-text">Feedback</p>
-            <p class="footer-text">Features</p>
-          </div>
-          <div class="col-3">
-            <h3 class="footer-header">About</h3>
-            <p class="footer-text">Company</p>
-            <p class="footer-text">Team</p>
-          </div>
-          <div class="col-3">
-            <h3 class="footer-header">Support</h3>
-            <p class="footer-text">Get help</p>
-            <p class="footer-text">Terms of service</p>
+    <footer>
+      <div class="container d-flex justify-content-center my-5">
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-3">
+              <h3 class="footer-header">Startup.io</h3>
+              <p class="footer-text">@2020 - All Rights Reserved</p>
+            </div>
+            <div class="col-3">
+              <h3 class="footer-header">Product</h3>
+              <p class="footer-text">Benefits</p>
+              <p class="footer-text">Feedback</p>
+              <p class="footer-text">Features</p>
+            </div>
+            <div class="col-3">
+              <h3 class="footer-header">About</h3>
+              <p class="footer-text">Company</p>
+              <p class="footer-text">Team</p>
+            </div>
+            <div class="col-3">
+              <h3 class="footer-header">Support</h3>
+              <p class="footer-text">Get help</p>
+              <p class="footer-text">Terms of service</p>
+            </div>
           </div>
         </div>
       </div>
+      
     </footer>
   </body>
 </html>
